@@ -240,6 +240,7 @@ To use `kubectl` commands:
     2.  Copy and paste the command that is displayed in your terminal to set the `KUBECONFIG` environment variable.
 
         **Mac or Linux user**: Instead of running the `ibmcloud ks cluster-config` command and copying the `KUBECONFIG` environment variable, you can run `ibmcloud ks cluster-config --export <cluster-name>`.
+        Depending on your shell, you could execute `eval $(ibmcloud ks cluster-config --export <cluster-name>)` to setup your current shell.
         {:tip}
 
     3.  Verify that the `KUBECONFIG` environment variable is set properly.
