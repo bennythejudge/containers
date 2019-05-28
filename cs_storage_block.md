@@ -197,7 +197,7 @@ Before you begin: [Log in to your account. If applicable, target the appropriate
 
 2. Optional: Download the latest Helm chart to your local machine. Then, extract the package and review the `release.md` file to find the latest release information.
    ```
-   helm fetch iks-charts/ibmcloud-block-storage-plugin
+   helm fetch ibm/ibmcloud-block-storage-plugin
    ```
    {: pre}
 
