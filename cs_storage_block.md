@@ -1152,7 +1152,7 @@ Before you begin: [Log in to your account. If applicable, target the appropriate
            resources:
              requests:
                storage: 20Gi
-         storageClassName: ibmc-block-bronze-delayed
+           storageClassName: ibmc-block-bronze-delayed
        - metadata:
            name: myvol2
          spec:
@@ -1161,7 +1161,7 @@ Before you begin: [Log in to your account. If applicable, target the appropriate
            resources:
              requests:
                storage: 20Gi
-         storageClassName: ibmc-block-bronze-delayed
+           storageClassName: ibmc-block-bronze-delayed
      ```
      {: codeblock}
 
